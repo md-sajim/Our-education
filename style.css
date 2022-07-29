@@ -20,6 +20,10 @@
     margin-right: 10px;
 }
 
+.explore-bg {
+    background-color: #cadce6;
+}
+
 @media screen and (max-width:576px) {
     .carousel-item img {
         height: 50vh;
@@ -28,5 +32,15 @@
 
     .brakpoint img {
         width: 100%;
+    }
+
+    .explore-bg {
+        background-color: #F4FAFD;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:855px) {
+    .carousel-item img {
+        height: 90vh;
     }
 }
